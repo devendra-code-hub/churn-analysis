@@ -9,7 +9,7 @@ An end-to-end data analytics and machine learning project built on the **Telco C
 ## 🖥️ Live Demo
 
 > _Deploy to Render and paste your URL here_
-> `https://your-app-name.onrender.com`
+> `https://churn-analysis-vx5a.onrender.com`
 
 ---
 
@@ -176,4 +176,4 @@ Deployed on **Render** as a web service:
 ## 👤 Author
 
 **Devendra**
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/devendra-code-hub) · [LinkedIn](https://linkedin.com/in/your-profile)
