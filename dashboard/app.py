@@ -19,16 +19,10 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)
 DATA_PATH = os.path.join(PROJECT_ROOT, "data", "raw", "WA_Fn-UseC_-Telco.csv")
 
 # ── Auto-load data ────────────────────────────────────────────
-# @st.cache_data
-# def load_data():
-#     # path = "data/raw/WA_Fn-UseC_-Telco.csv"
-#     df = pd.read_csv(DATA_PATH)
-#     df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
-#     return df
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/dsrscientist/dataset1/master/Telco-Customer-Churn.csv"
-    df = pd.read_csv(url)
+    # path = "data/raw/WA_Fn-UseC_-Telco.csv"
+    df = pd.read_csv(DATA_PATH)
     df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")
     return df
 
